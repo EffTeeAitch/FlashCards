@@ -12,3 +12,17 @@ D:\notatnki\C#\DoSzkoloy\obj\Debug\netcoreapp3.1\DoSzkoloy.dll
 D:\notatnki\C#\DoSzkoloy\obj\Debug\netcoreapp3.1\DoSzkoloy.pdb
 D:\notatnki\C#\DoSzkoloy\obj\Debug\netcoreapp3.1\DoSzkoloy.genruntimeconfig.cache
 D:\notatnki\C#\DoSzkoloy\bin\Debug\netcoreapp3.1\fiszka.txt
+D:\Projekty\GHit\Repositories\FishBoard-Cards\bin\Debug\netcoreapp3.1\DoSzkoloy.exe
+D:\Projekty\GHit\Repositories\FishBoard-Cards\bin\Debug\netcoreapp3.1\fiszka.txt
+D:\Projekty\GHit\Repositories\FishBoard-Cards\bin\Debug\netcoreapp3.1\DoSzkoloy.deps.json
+D:\Projekty\GHit\Repositories\FishBoard-Cards\bin\Debug\netcoreapp3.1\DoSzkoloy.runtimeconfig.json
+D:\Projekty\GHit\Repositories\FishBoard-Cards\bin\Debug\netcoreapp3.1\DoSzkoloy.runtimeconfig.dev.json
+D:\Projekty\GHit\Repositories\FishBoard-Cards\bin\Debug\netcoreapp3.1\DoSzkoloy.dll
+D:\Projekty\GHit\Repositories\FishBoard-Cards\bin\Debug\netcoreapp3.1\DoSzkoloy.pdb
+D:\Projekty\GHit\Repositories\FishBoard-Cards\obj\Debug\netcoreapp3.1\DoSzkoloy.csprojAssemblyReference.cache
+D:\Projekty\GHit\Repositories\FishBoard-Cards\obj\Debug\netcoreapp3.1\DoSzkoloy.AssemblyInfoInputs.cache
+D:\Projekty\GHit\Repositories\FishBoard-Cards\obj\Debug\netcoreapp3.1\DoSzkoloy.AssemblyInfo.cs
+D:\Projekty\GHit\Repositories\FishBoard-Cards\obj\Debug\netcoreapp3.1\DoSzkoloy.csproj.CoreCompileInputs.cache
+D:\Projekty\GHit\Repositories\FishBoard-Cards\obj\Debug\netcoreapp3.1\DoSzkoloy.dll
+D:\Projekty\GHit\Repositories\FishBoard-Cards\obj\Debug\netcoreapp3.1\DoSzkoloy.pdb
+D:\Projekty\GHit\Repositories\FishBoard-Cards\obj\Debug\netcoreapp3.1\DoSzkoloy.genruntimeconfig.cache

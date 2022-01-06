@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\notatnki\\C#\\DoSzkoloy\\DoSzkoloy.csproj": {}
+    "D:\\Projekty\\GHit\\Repositories\\FishBoard-Cards\\DoSzkoloy.csproj": {}
   },
   "projects": {
-    "D:\\notatnki\\C#\\DoSzkoloy\\DoSzkoloy.csproj": {
+    "D:\\Projekty\\GHit\\Repositories\\FishBoard-Cards\\DoSzkoloy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\notatnki\\C#\\DoSzkoloy\\DoSzkoloy.csproj",
+        "projectUniqueName": "D:\\Projekty\\GHit\\Repositories\\FishBoard-Cards\\DoSzkoloy.csproj",
         "projectName": "DoSzkoloy",
-        "projectPath": "D:\\notatnki\\C#\\DoSzkoloy\\DoSzkoloy.csproj",
+        "projectPath": "D:\\Projekty\\GHit\\Repositories\\FishBoard-Cards\\DoSzkoloy.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\notatnki\\C#\\DoSzkoloy\\obj\\",
+        "outputPath": "D:\\Projekty\\GHit\\Repositories\\FishBoard-Cards\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
