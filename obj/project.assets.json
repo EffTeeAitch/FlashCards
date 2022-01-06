@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projekty\\GHit\\Repositories\\FishBoard-Cards\\DoSzkoloy.csproj",
-      "projectName": "DoSzkoloy",
-      "projectPath": "D:\\Projekty\\GHit\\Repositories\\FishBoard-Cards\\DoSzkoloy.csproj",
+      "projectUniqueName": "D:\\Projekty\\GHit\\Repositories\\FishBoard-Cards\\FlashCards.csproj",
+      "projectName": "FlashCards",
+      "projectPath": "D:\\Projekty\\GHit\\Repositories\\FishBoard-Cards\\FlashCards.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
       "outputPath": "D:\\Projekty\\GHit\\Repositories\\FishBoard-Cards\\obj\\",
       "projectStyle": "PackageReference",

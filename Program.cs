@@ -48,7 +48,7 @@ namespace DoSzkoloy
         }
 
 
-        public void Import(List<string[]> lista, Dictionary<string, string> dictionary)
+        public bool Import(List<string[]> lista, Dictionary<string, string> dictionary)
         {
             lista.Clear();
             string line;
@@ -62,10 +62,12 @@ namespace DoSzkoloy
 
                 if (!File.Exists(path))
                 {
-                    Console.WriteLine("File does not exist, try another one");
+                    Console.WriteLine("File does not exist, try another one or press '0' to stop");
                 }
                 else
                     continue;
+                if (path == "0.txt")
+                    return false;
             } while (File.Exists(path) == false);
 
             //rewrite file into flashcard
@@ -78,6 +80,7 @@ namespace DoSzkoloy
                 string con2 = l[1];
                 dictionary.Add(con1, con2);
             }
+            return true;
         }
 
         //export flashcars into file new or that exists
@@ -152,8 +155,10 @@ namespace DoSzkoloy
                         break;
                     case "4":
                         Console.Clear();
-                        firstClass.Import(data, flash);
-                        Console.WriteLine("Import ended successfully\n\n\t Push any button to continue");
+                        if(firstClass.Import(data, flash))
+                            Console.WriteLine("Import ended successfully\n\n\t Push any button to continue");
+                        else
+                            Console.WriteLine("Import did not take place\n\n\t Push any button to continue");
                         Console.ReadKey();
                         break;
                     case "5":
