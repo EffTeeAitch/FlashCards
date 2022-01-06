@@ -53,22 +53,9 @@ namespace DoSzkoloy
             lista.Clear();
             string line;
 
-            string path = "";                                                       //variable containing path
-            //Console.Write($"\nName of the file without extension: ");
-            //path = Console.ReadLine() + ".txt";
-            //Console.WriteLine();
-     
-            //try
-            //{
-            //    using var helper = new StreamReader(path);
-            //    helper.Close();
-            //}
-            //catch (FileNotFoundException e)
-            //{
-            //    Console.Write($"File not found, try another one: ");
-            //    path = Console.ReadLine() + ".txt";
-            //}
-            do
+            string path = "";  //variable containing path
+
+            do      //check if file does exist
             {
                 Console.Write($"\nName of the file without extension: ");
                 path = Console.ReadLine() + ".txt";
@@ -81,8 +68,8 @@ namespace DoSzkoloy
                     continue;
             } while (File.Exists(path) == false);
 
-                            //copying file into dictionary
-            using var file = new StreamReader(path);       
+            //rewrite file into flashcard
+            using var file = new StreamReader(path);
             while ((line = file.ReadLine()) != null)
                 lista.Add(line.Split(" "));
             foreach (string[] l in lista)
@@ -92,6 +79,8 @@ namespace DoSzkoloy
                 dictionary.Add(con1, con2);
             }
         }
+
+        //export flashcars into file new or that exists
         public void Export(Dictionary<string, string> dictionary)
         {
             Console.Write($"\nName of the file without extension: ");
@@ -170,8 +159,7 @@ namespace DoSzkoloy
                     case "5":
                         Console.Clear();
                         firstClass.Export(flash);
-                        Console.WriteLine("Works but not exactly how it should");
-                        Console.WriteLine("\n\n\nYou don't have access to this option. Buy premium!\n\n\t Push any button to continue");
+                        Console.WriteLine("File has beed exported. Enjoy!\n\n\t Push any button to continue");
                         Console.ReadKey();
                         break;
                     case "6":
